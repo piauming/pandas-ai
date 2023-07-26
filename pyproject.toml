@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pandas-ai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "pandas_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.25.0"
+pandasai = "^0.7.2"
+python-dotenv = "^1.0.0"
+openai = "^0.27.8"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

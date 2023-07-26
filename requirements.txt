@@ -1,0 +1,6 @@
+openai==0.27.8
+openapi-schema-pydantic==1.2.4
+pandas-profiling==3.6.6
+pandasai==0.7.2
+python-dotenv==1.0.0
+streamlit==1.25.0
